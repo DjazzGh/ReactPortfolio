@@ -77,10 +77,7 @@ function Contact() {
                         <span role="img" aria-label="Email">✉️</span>
                         <strong>Email: </strong>djaziaghomari24@gmail.com
                     </li>
-                    <li>
-                        <span role="img" aria-label="Phone">📞</span>
-                        <strong>Phone: </strong>+213 792240682
-                    </li>
+                    
                     <li>
                         <span role="img" aria-label="LinkedIn">💼</span>
                         <a
