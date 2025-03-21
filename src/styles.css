@@ -271,7 +271,7 @@ section:last-child {
 }
 
 .card {
-  background: linear-gradient(to bottom, var(--primary-purple), var(--accent-blue));
+  background: linear-gradient(to bottom, var(--primary-purple) 55%, var(--accent-blue));
   padding: 20px;
   border-radius: 10px;
   width: 250px;
@@ -668,12 +668,16 @@ body {
 /*Mobile version*/
 
 @media (max-width: 768px) {
-  /* Scale down global font sizes and padding */
+
   .app {
-    font-size: 14px; /* Reduce base font size */
+    font-size: 14px; 
   }
 
- 
+
+ .nav-list {
+  gap: 20px;
+  font-size:14px ;
+ }
 
 
 
@@ -854,7 +858,7 @@ body {
 
   .contact-container {
     flex-direction: column; /* Stack image and list vertically */
-    gap: 20px; /* Reduce gap */
+    gap: 10px; /* Reduce gap */
   }
 
   .contact-image {
@@ -864,13 +868,10 @@ body {
 
   .contact-list li {
     font-size: 14px; /* Scale down list items */
+    padding-bottom: 0px;
   }
 
-  .contact-form {
-    flex-direction: column; /* Stack input and button */
-    gap: 10px; /* Add gap between stacked elements */
-  }
-
+ 
   .contact-input {
     border-radius: 5px; /* Adjust border radius for standalone input */
     padding: 10px; /* Reduce padding */
@@ -879,12 +880,11 @@ body {
   .contact-button {
     border-radius: 5px; /* Adjust border radius for standalone button */
     padding: 10px 15px; /* Reduce padding */
-    width: 100%; /* Full width button */
+    width: 20%; /* Full width button */
   }
 
-  /* Custom cursor ball */
+
   .cursor-ball {
-    width: 15px; /* Scale down cursor ball */
-    height: 15px;
+   cursor: none;
   }
 }
