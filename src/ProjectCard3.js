@@ -6,7 +6,7 @@ function ProjectCard() {
         <p>
         Developed a hotel management system that processes 200+ bookings per month, applying Java OOP principles, MVC architecture, and designing an intuitive GUI.
         </p>
-        <button><a href="https://drive.google.com/file/d/137QG-0lZ5psppvPFvFObQ8sVThxuVIwR/view?usp=sharing" target="_blank" >Check Demo →</a></button>
+        <button><a href="https://drive.google.com/file/d/1eRXpY78DySlUhs1LJYksW4Jl7lClurW3/view?usp=sharing" target="_blank" >Check Demo →</a></button>
         <div className="tech-icons">
           
           <span role="img" aria-label="TypeScript">
