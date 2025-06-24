@@ -13,13 +13,13 @@ function ProjectCard() {
           <img src="https://runcode-app-public.s3.amazonaws.com/images/online-reactjs-editor-compiler.original.png" alt="ReactJS Logo" height="30px"/>
           </span>
         <span role="img" >
-          <img src="https://w7.pngwing.com/pngs/293/485/png-transparent-tailwind-css-hd-logo.png" alt="ReactJS Logo" height="30px"/>
+          <img src="https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000" alt="Tailwind Logo" height="30px"/>
           </span>
           <span role="img" aria-label="Three.js">
-          <img src="https://img.favpng.com/7/9/3/node-js-javascript-react-logo-express-js-png-favpng-GPD0rKMbRdWaq3cyiE1t3dSbw.jpg" alt="NodeJS Logo" height="30px"/>
+          <img src="https://img.icons8.com/?size=100&id=54087&format=png&color=000000" alt="NodeJS Logo" height="30px"/>
           </span>
         <span role="img" aria-label="Three.js">
-          <img src="https://w7.pngwing.com/pngs/956/695/png-transparent-mongodb-original-wordmark-logo-icon-thumbnail.png" alt="MongoDB Logo" height="30px"/>
+          <img src="https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000" alt="MongoDB Logo" height="30px"/>
           </span>
           
          
