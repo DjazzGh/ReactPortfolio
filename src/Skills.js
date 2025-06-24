@@ -6,6 +6,7 @@ function Skills() {
           <div className="skill-card">
             <h3>Frontend web developement</h3>
             <div className="publications-icons">
+        <ul>
              <li>
                 <span role="img" >
                 <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="Flutter Logo" height="30px"/>
@@ -36,6 +37,7 @@ function Skills() {
                 </span>{' '}
                 Tailwind CSS
               </li>
+                    </ul>
             </div>
           </div>
           <div className="skill-card">
