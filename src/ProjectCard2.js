@@ -6,7 +6,7 @@ function ProjectCard() {
         <p>
         A real-time chat application that enables users to exchange instant messages and monitor online statuses through a seamless, responsive interface. It incorporates secure user authentication, ensures reliable conversation flow, and implements comprehensive error handling on both client and server sides.
         </p>
-        <button><a href="https://drive.google.com/file/d/1cIxcdBgj6uqjT2dYr4_cOmKuA8T9xDfn/view?usp=sharing" target="_blank" >Check Demo →</a></button>
+        <button><a href="https://drive.google.com/file/d/1idylEldU17gS_Z220VQiVElw0L5MPkDO/view?usp=sharing" target="_blank" >Check Demo →</a></button>
         <div className="tech-icons">
           
           <span role="img" >
