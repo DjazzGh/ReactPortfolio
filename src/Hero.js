@@ -16,7 +16,7 @@ function Hero() {
         </div>
         <h1 className="typewriter">Ghomari Djazia</h1>
         <p>
-       I am aFull Stack Web Developer with a passion for AI and cybersecurity.
+       Full Stack Web Developer with a passion for AI and cybersecurity.
         </p>
         <div className="button-container">
           <button className="btn-primary" onClick={() => handleScroll('contact')}>Get In Touch</button>
