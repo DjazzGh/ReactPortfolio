@@ -5,6 +5,7 @@ import Hero from './Hero.js';
 import AboutMe from './AboutMe.js';
 import Skills from './Skills.js';
 import Projects from './Projects.js';
+import Experience from './Experience.js';
 import Contact from './Contact.js';
 import TrailingCursor from './TrailingCursor.js';
 
@@ -16,6 +17,7 @@ function App() {
       <AboutMe id="second" />
       <Skills id="third" />
       <Projects id="fourth" />
+      <Experience />
       <Contact id="contact" />
       <TrailingCursor  /> 
     </div>

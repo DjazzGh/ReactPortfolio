@@ -4,7 +4,6 @@ function Header() {
   const [isLightMode, setIsLightMode] = useState(false);
 
   const handleScroll = (id) => {
-    console.log(`Attempting to scroll to ID: ${id}`);
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
@@ -15,7 +14,6 @@ function Header() {
 
   const toggleTheme = () => {
     setIsLightMode(prev => !prev);
-    // Optional: Add to root element if Header isn't the top-level component
     document.documentElement.classList.toggle('light-mode');
   };
 
@@ -28,6 +26,7 @@ function Header() {
             <li onClick={() => handleScroll('about-me')}>About Me</li>
             <li onClick={() => handleScroll('skills')}>Skills</li>
             <li onClick={() => handleScroll('projects')}>Projects</li>
+            <li onClick={() => handleScroll('experience')}>Experience</li>
             <li onClick={() => handleScroll('contact')}>Contact</li>
           </ul>
         </nav>

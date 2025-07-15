@@ -1,6 +1,5 @@
 function Hero() {
   const handleScroll = (id) => {
-    console.log(`Attempting to scroll to ID: ${id}`); // Debug log
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
@@ -17,7 +16,7 @@ function Hero() {
         </div>
         <h1 className="typewriter">Ghomari Djazia</h1>
         <p>
-        I am a Computer Science student with knowledge of web and app development and a passion for cybersecurity.
+       I am aFull Stack Web Developer with a passion for AI and cybersecurity.
         </p>
         <div className="button-container">
           <button className="btn-primary" onClick={() => handleScroll('contact')}>Get In Touch</button>

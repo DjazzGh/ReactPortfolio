@@ -64,10 +64,10 @@ function AboutMe() {
                     <p>
                         <ul>
                           <li>Web Development</li>
-                          <li>Mobile Development</li>
                           <li>UI UX Design</li>
                           <li>Cybersecurity</li>
                           <li>AI</li>
+                          <li>Mobile Development</li>
                         </ul>
                     </p>
                 </div>

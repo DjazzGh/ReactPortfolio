@@ -29,22 +29,18 @@ function Contact() {
         };
     }, []);
 
-    // Initialize EmailJS with your public key
     useEffect(() => {
         emailjs.init("54xHsc0iLQOAn2JU4");
     }, []);
 
     const handleSubmit = (e) => {
         e.preventDefault();
-
-        // EmailJS send email
         emailjs.send(
             "service_fh818rm",      
             "template_2co5fae",    
             {
                 message: message,
                 to_email: "djazia.gh77@gmail.com",
-                
             }
         )
         .then((response) => {
